@@ -27,4 +27,4 @@ jobs:
         with:
           ruby-version: '3.1'
       - name: Run tests
-        run: run test/test_parity_prop.rb
+        run: ruby test/test_parity_prop.rb
